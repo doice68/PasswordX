@@ -27,7 +27,7 @@
 				Width="200"
 				Text="{Binding searchText}"/>-->
 			<Label Content="unsaved!" IsVisible="{Binding !isSaved}"/>
-			<Button  Background="Transparent" ToolTip.Tip="save" Command="{Binding Save}">
+			<Button Background="Transparent" ToolTip.Tip="save" Command="{Binding Save}">
 				<DrawingPresenter Drawing="{StaticResource BoxIcons.SolidSave}"/>
 			</Button>
 		</StackPanel>
@@ -37,7 +37,7 @@
 				<DataTemplate>
 						<Grid Margin="10, 5">
 							<StackPanel Orientation="Horizontal" Spacing="10">
-								<TextBlock  VerticalAlignment="Center" Text="{Binding name}"/>
+								<TextBlock VerticalAlignment="Center" Text="{Binding name}"/>
 								<TextBlock VerticalAlignment="Center" Text="{Binding password}"/>
 							</StackPanel>
 							
