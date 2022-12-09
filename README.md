@@ -1,3 +1,5 @@
 # PasswordX
  
-![screen shot](/Assets/screenshot.jpg "screenshot")
+- cool little password manager 🔒
+
+![screen shot](/Assets/screenshot.png "screenshot")
